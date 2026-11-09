@@ -1,0 +1,10 @@
+# Build output
+/public/
+/resources/
+.hugo_build.lock
+
+# Names individuals; this repo is public
+/Bass Lake Association - Website Plans.md
+
+# Original logos; web-ready copies are in static/images/
+/images/

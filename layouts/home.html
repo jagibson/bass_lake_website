@@ -1,0 +1,13 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="wrap hero-inner">
+    <img src="{{ "images/logo-round.jpg" | relURL }}" width="240" height="240" alt="Bass Lake logo: two loons on the lake at sunset, with pines and an eagle">
+    <div>
+      <h1>{{ .Title }}</h1>
+      <p class="location">{{ site.Params.location }}</p>
+      {{ .Content }}
+      <p><a class="button" href="{{ "joining/" | relURL }}">How to join</a></p>
+    </div>
+  </div>
+</section>
+{{ end }}

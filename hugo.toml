@@ -1,0 +1,33 @@
+baseURL = "http://localhost:1313/"
+locale = "en-US"
+title = "Bass Lake Association"
+disableKinds = ["RSS", "section", "sitemap", "taxonomy", "term"]
+
+[params]
+description = "Bass Lake Association in Springbrook, Washburn County, Wisconsin."
+location = "Springbrook, Washburn County, Wisconsin"
+
+[[menus.main]]
+name = "Home"
+pageRef = "/"
+weight = 10
+
+[[menus.main]]
+name = "About the Lake"
+pageRef = "/about-the-lake"
+weight = 20
+
+[[menus.main]]
+name = "Joining"
+pageRef = "/joining"
+weight = 30
+
+[[menus.main]]
+name = "Contact"
+pageRef = "/contact"
+weight = 40
+
+[[menus.main]]
+name = "Members"
+pageRef = "/members"
+weight = 50
